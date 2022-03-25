@@ -1,0 +1,31 @@
+x represents an arb int
+
+Interface:
+- command line (using list of lists), like tic tac toe
+- Kivy
+- Pygame
+
+Bud:
+- Basic attributes
+    - food level
+    - speed
+    - colony (colour)
+- Basic methods
+    - eat (when food particle at distance x)
+    - duplication (at x food level)
+    - death (at x food level)
+    - Movement
+        - Constant velocity in a direction
+            - bounce off walls like pong
+            - bounce off other Buds 
+- Advanced methods  
+    - 
+
+
+Environment
+    - Basic attributes
+        - max num food particles
+        - list of Buds in environment
+    - Basic Methods
+        - generate food (when less than max num food particles)
+        - Add Buds to list of buds
